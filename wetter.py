@@ -32,5 +32,5 @@ def wetter_vorhersage(message):
 		message.reply('Vorhersage für {0}:\n Wetteraussicht {1}\n Temperaturverlauf morgens {2}°C, mittags {3}°C, abends {4}°C, nachts {5}°C'.format(
 		weather.get_reference_time('iso'), weather.get_detailed_status(), temperature['morn'], temperature['day'], temperature['eve'], temperature['night']))
 
-wetter_vorhersage.__doc__ = u"Zeigt Wettervorhersage für KIT CN an"
+wetter_vorhersage.__doc__ = u"Zeigt Wettervorhersage für KIT CN an "
 
