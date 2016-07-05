@@ -1,7 +1,6 @@
  # -*- coding: utf-8 -*-
 from mattermost_bot.bot import respond_to, listen_to
 import os
-import pymsgbox
 import time
 import getpass
 import re
